@@ -1,3 +1,14 @@
+//write JS code for homework guessing game
+//
+//establish that 'addict' will change as questions are answered
+//
+//asking questions
+//
+var myconsole=document.getElementById("myconsole");
+function mylog(v){
+    myconsole.innerHTML += (v + "<br>");
+}
+
 function answers1() {
 
         addict=0;
